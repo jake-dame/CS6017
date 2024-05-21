@@ -1,0 +1,64 @@
+##########################################################################################
+######################################  .GITIGNORE  ######################################
+##########################################################################################
+
+## PYTHON
+.venv/
+
+## Compiled C/C++ binaries
+out/
+
+## GCC PATCH
+**/*.gcno
+
+## Obnoxious file that has thumbnails and stuff
+.DS_Store
+
+## OBJECT FILES
+*.o
+*.obj
+*.tlo
+*.tli
+*.tlh
+*.bsc
+
+## EXECUTABLES
+*.exe
+*.out
+*.app
+
+## CLION
+.idea/
+cmake-build-*/
+CMakeLists.txt
+
+## INTELLIJ
+.idea/
+*.iml
+
+## PYCHARM
+
+
+
+## VSCode
+
+
+
+## XCODE
+**/xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+**/build/
+**/DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## MISC
+notebook.txt
